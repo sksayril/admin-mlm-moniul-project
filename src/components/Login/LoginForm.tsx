@@ -56,11 +56,11 @@ const LoginForm: React.FC = () => {
         {/* Login Form */}
         <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
           {/* Demo Credentials Info */}
-          <div className="mb-6 p-4 bg-sky-50 rounded-lg border-l-4 border-sky-400">
+          {/* <div className="mb-6 p-4 bg-sky-50 rounded-lg border-l-4 border-sky-400">
             <p className="text-sm text-sky-700 font-medium mb-1">Demo Credentials:</p>
             <p className="text-xs text-sky-600">Email: admin@example.com</p>
             <p className="text-xs text-sky-600">Password: securepassword123</p>
-          </div>
+          </div> */}
 
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Email Field */}
